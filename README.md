@@ -37,31 +37,21 @@
 - Balanced the dataset by selecting equal numbers of fraud and non-fraud transactions
 - Created five different samples using statistical sampling techniques
 - Applied five machine learning models on each sampled dataset
-- Evaluated model performance using **Accuracy**
-- Compared results using a Model × Sampling matrix
+- Evaluated and compared model performance using **Accuracy**
 
 ---
 
 ## Results
-- Accuracy results are organized in a tabular format
-- Rows represent machine learning models (M1–M5)
-- Columns represent sampling techniques (Sampling1–Sampling5)
-
-📄 **Result File:**  
-- `sampling_accuracy_results.csv`
+<img width="849" height="416" alt="image" src="https://github.com/user-attachments/assets/64867e7a-5f0a-43e8-babc-9d956ca26901" />
 
 ---
 
 ## Observations
-- Stratified Sampling generally produced more stable and consistent accuracy
-- Random Forest achieved the highest accuracy across most sampling techniques
-- Cluster and Systematic Sampling showed comparatively lower performance
-- Sampling strategy significantly impacts model performance
+- The highest accuracy (0.83) is achieved by **Decision Tree (M2)** using **Stratified Sampling (Sampling2)**.
+- **Random Forest (M3)** performs consistently across most sampling techniques but does not achieve the highest accuracy.
+- **Cluster Sampling (Sampling4)** yields the lowest overall performance, showing a constant accuracy of 0.33 across all models.
+- The results clearly indicate that **sampling strategy significantly impacts model performance**, and no single sampling technique is optimal for all models.
 
----
+**Heatmap**
+<img width="1327" height="641" alt="image" src="https://github.com/user-attachments/assets/0eb9c927-623b-443e-8dac-96fe0628e53a" />
 
-## Visualizations (Optional)
-- Accuracy comparison table (screenshot or CSV view)
-- Bar chart or heatmap showing accuracy across models and sampling techniques
-
-Suggested folder:

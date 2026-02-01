@@ -51,6 +51,15 @@
 - **Random Forest (M3)** performs consistently across most sampling techniques but does not achieve the highest accuracy.
 - **Cluster Sampling (Sampling4)** yields the lowest overall performance, showing a constant accuracy of 0.33 across all models.
 - The results clearly indicate that **sampling strategy significantly impacts model performance**, and no single sampling technique is optimal for all models.
+- ### Best Sampling Technique for Each Model
+|  Machine Learning Model  |   Best Sampling Technique    | Accuracy |
+|--------------------------|------------------------------|----------|
+| M1 – Logistic Regression | Sampling5 (Cross Validation) |   0.50   |
+|    M2 – Decision Tree    |    Sampling2 (Stratified)    |   0.83   |
+|    M3 – Random Forest    |  Sampling1 (Simple Random)   |   0.67   |
+|         M4 – SVM         |    Sampling1 / Sampling5     |   0.50   |
+|     M5 – Naive Bayes     |    Sampling2 (Stratified)    |   0.67   |
+
 
 **Heatmap**
 <img width="1327" height="641" alt="image" src="https://github.com/user-attachments/assets/0eb9c927-623b-443e-8dac-96fe0628e53a" />

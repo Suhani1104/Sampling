@@ -1,0 +1,26 @@
+Sampling Technique,Model,Accuracy,Sampling
+Simple Random Sampling,M1_LogisticRegression,0.333333333,Sampling1
+Simple Random Sampling,M2_DecisionTree,0.666666667,Sampling1
+Simple Random Sampling,M3_RandomForest,1,Sampling1
+Simple Random Sampling,M4_SVM,0.5,Sampling1
+Simple Random Sampling,M5_NaiveBayes,0.5,Sampling1
+Stratified Sampling,M1_LogisticRegression,0.166666667,Sampling2
+Stratified Sampling,M2_DecisionTree,0.666666667,Sampling2
+Stratified Sampling,M3_RandomForest,0.5,Sampling2
+Stratified Sampling,M4_SVM,0.166666667,Sampling2
+Stratified Sampling,M5_NaiveBayes,0.666666667,Sampling2
+Systematic Sampling,M1_LogisticRegression,0,Sampling3
+Systematic Sampling,M2_DecisionTree,0.5,Sampling3
+Systematic Sampling,M3_RandomForest,0,Sampling3
+Systematic Sampling,M4_SVM,0,Sampling3
+Systematic Sampling,M5_NaiveBayes,0.5,Sampling3
+Cluster Sampling,M1_LogisticRegression,0.333333333,Sampling4
+Cluster Sampling,M2_DecisionTree,0,Sampling4
+Cluster Sampling,M3_RandomForest,0.333333333,Sampling4
+Cluster Sampling,M4_SVM,0.333333333,Sampling4
+Cluster Sampling,M5_NaiveBayes,0.333333333,Sampling4
+Cross Validation Sampling,M1_LogisticRegression,0.5,Sampling5
+Cross Validation Sampling,M2_DecisionTree,0.75,Sampling5
+Cross Validation Sampling,M3_RandomForest,0.5,Sampling5
+Cross Validation Sampling,M4_SVM,0.5,Sampling5
+Cross Validation Sampling,M5_NaiveBayes,0.25,Sampling5

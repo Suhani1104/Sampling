@@ -61,6 +61,6 @@
 |     M5 – Naive Bayes     |    Sampling2 (Stratified)    |   0.67   |
 
 
-**Heatmap**
+- ### Heatmap
 <img width="1327" height="641" alt="image" src="https://github.com/user-attachments/assets/0eb9c927-623b-443e-8dac-96fe0628e53a" />
 
